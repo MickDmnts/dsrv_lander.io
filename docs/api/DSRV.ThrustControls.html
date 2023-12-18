@@ -117,6 +117,253 @@
 
 
 
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DSRV_ThrustControls_dsrv" data-uid="DSRV.ThrustControls.dsrv">
+  dsrv
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The DSRV handler of these controls</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private DSRV dsrv</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DSRV.DSRV.html">DSRV</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_ThrustControls_handler" data-uid="DSRV.ThrustControls.handler">
+  handler
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>here is where the DSRV controls are called and where we create the bool for the thrust</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private DSRVControls handler</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DSRV.DSRVControls.html">DSRVControls</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_ThrustControls_isThrusting" data-uid="DSRV.ThrustControls.isThrusting">
+  isThrusting
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private bool isThrusting</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DSRV_ThrustControls_FixedUpdate_" data-uid="DSRV.ThrustControls.FixedUpdate*"></a>
+
+  <h3 id="DSRV_ThrustControls_FixedUpdate" data-uid="DSRV.ThrustControls.FixedUpdate">
+  FixedUpdate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>in this fixed update is where all the physics is being done</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void FixedUpdate()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_ThrustControls_OnThrust_" data-uid="DSRV.ThrustControls.OnThrust*"></a>
+
+  <h3 id="DSRV_ThrustControls_OnThrust" data-uid="DSRV.ThrustControls.OnThrust">
+  OnThrust()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This is the method that calculate the Thrust that the DSRV will move</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void OnThrust()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_ThrustControls_OnThrustStart_" data-uid="DSRV.ThrustControls.OnThrustStart*"></a>
+
+  <h3 id="DSRV_ThrustControls_OnThrustStart_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="DSRV.ThrustControls.OnThrustStart(UnityEngine.InputSystem.InputAction.CallbackContext)">
+  OnThrustStart(CallbackContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the input is active</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void OnThrustStart(InputAction.CallbackContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <span class="xref">InputAction</span>.<span class="xref">CallbackContext</span></dt>
+    <dd><p>it s the InputAction</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_ThrustControls_OnThrustStop_" data-uid="DSRV.ThrustControls.OnThrustStop*"></a>
+
+  <h3 id="DSRV_ThrustControls_OnThrustStop_UnityEngine_InputSystem_InputAction_CallbackContext_" data-uid="DSRV.ThrustControls.OnThrustStop(UnityEngine.InputSystem.InputAction.CallbackContext)">
+  OnThrustStop(CallbackContext)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks if the inpit is not active</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void OnThrustStop(InputAction.CallbackContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <span class="xref">InputAction</span>.<span class="xref">CallbackContext</span></dt>
+    <dd><p>it s the InputAction</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_ThrustControls_Start_" data-uid="DSRV.ThrustControls.Start*"></a>
+
+  <h3 id="DSRV_ThrustControls_Start" data-uid="DSRV.ThrustControls.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>here is where everything is initialized</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 

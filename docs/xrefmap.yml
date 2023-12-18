@@ -10,12 +10,93 @@ references:
   commentId: T:DSRV.CameraHandler
   fullName: DSRV.CameraHandler
   nameWithType: CameraHandler
+- uid: DSRV.CameraHandler.Start
+  name: Start()
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_Start
+  commentId: M:DSRV.CameraHandler.Start
+  fullName: DSRV.CameraHandler.Start()
+  nameWithType: CameraHandler.Start()
+- uid: DSRV.CameraHandler.Start*
+  name: Start
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_Start_
+  commentId: Overload:DSRV.CameraHandler.Start
+  isSpec: "True"
+  fullName: DSRV.CameraHandler.Start
+  nameWithType: CameraHandler.Start
+- uid: DSRV.CameraHandler.Update
+  name: Update()
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_Update
+  commentId: M:DSRV.CameraHandler.Update
+  fullName: DSRV.CameraHandler.Update()
+  nameWithType: CameraHandler.Update()
+- uid: DSRV.CameraHandler.Update*
+  name: Update
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_Update_
+  commentId: Overload:DSRV.CameraHandler.Update
+  isSpec: "True"
+  fullName: DSRV.CameraHandler.Update
+  nameWithType: CameraHandler.Update
+- uid: DSRV.CameraHandler.deadZoneHeight
+  name: deadZoneHeight
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_deadZoneHeight
+  commentId: F:DSRV.CameraHandler.deadZoneHeight
+  fullName: DSRV.CameraHandler.deadZoneHeight
+  nameWithType: CameraHandler.deadZoneHeight
+- uid: DSRV.CameraHandler.deadZoneWidth
+  name: deadZoneWidth
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_deadZoneWidth
+  commentId: F:DSRV.CameraHandler.deadZoneWidth
+  fullName: DSRV.CameraHandler.deadZoneWidth
+  nameWithType: CameraHandler.deadZoneWidth
+- uid: DSRV.CameraHandler.defaultZoom
+  name: defaultZoom
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_defaultZoom
+  commentId: F:DSRV.CameraHandler.defaultZoom
+  fullName: DSRV.CameraHandler.defaultZoom
+  nameWithType: CameraHandler.defaultZoom
+- uid: DSRV.CameraHandler.framingTransposer
+  name: framingTransposer
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_framingTransposer
+  commentId: F:DSRV.CameraHandler.framingTransposer
+  fullName: DSRV.CameraHandler.framingTransposer
+  nameWithType: CameraHandler.framingTransposer
+- uid: DSRV.CameraHandler.vCamera
+  name: vCamera
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_vCamera
+  commentId: F:DSRV.CameraHandler.vCamera
+  fullName: DSRV.CameraHandler.vCamera
+  nameWithType: CameraHandler.vCamera
+- uid: DSRV.CameraHandler.zoomFactor
+  name: zoomFactor
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_zoomFactor
+  commentId: F:DSRV.CameraHandler.zoomFactor
+  fullName: DSRV.CameraHandler.zoomFactor
+  nameWithType: CameraHandler.zoomFactor
+- uid: DSRV.CameraHandler.zoomThreshold
+  name: zoomThreshold
+  href: api/DSRV.CameraHandler.html#DSRV_CameraHandler_zoomThreshold
+  commentId: F:DSRV.CameraHandler.zoomThreshold
+  fullName: DSRV.CameraHandler.zoomThreshold
+  nameWithType: CameraHandler.zoomThreshold
 - uid: DSRV.DSRV
   name: DSRV
   href: api/DSRV.DSRV.html
   commentId: T:DSRV.DSRV
   fullName: DSRV.DSRV
   nameWithType: DSRV
+- uid: DSRV.DSRV.Awake
+  name: Awake()
+  href: api/DSRV.DSRV.html#DSRV_DSRV_Awake
+  commentId: M:DSRV.DSRV.Awake
+  fullName: DSRV.DSRV.Awake()
+  nameWithType: DSRV.Awake()
+- uid: DSRV.DSRV.Awake*
+  name: Awake
+  href: api/DSRV.DSRV.html#DSRV_DSRV_Awake_
+  commentId: Overload:DSRV.DSRV.Awake
+  isSpec: "True"
+  fullName: DSRV.DSRV.Awake
+  nameWithType: DSRV.Awake
 - uid: DSRV.DSRV.DepthFinder
   name: DepthFinder
   href: api/DSRV.DSRV.html#DSRV_DSRV_DepthFinder
@@ -29,6 +110,22 @@ references:
   isSpec: "True"
   fullName: DSRV.DSRV.DepthFinder
   nameWithType: DSRV.DepthFinder
+- uid: DSRV.DSRV.GetProfileByIndex(System.Int32)
+  name: GetProfileByIndex(int)
+  href: api/DSRV.DSRV.html#DSRV_DSRV_GetProfileByIndex_System_Int32_
+  commentId: M:DSRV.DSRV.GetProfileByIndex(System.Int32)
+  name.vb: GetProfileByIndex(Integer)
+  fullName: DSRV.DSRV.GetProfileByIndex(int)
+  fullName.vb: DSRV.DSRV.GetProfileByIndex(Integer)
+  nameWithType: DSRV.GetProfileByIndex(int)
+  nameWithType.vb: DSRV.GetProfileByIndex(Integer)
+- uid: DSRV.DSRV.GetProfileByIndex*
+  name: GetProfileByIndex
+  href: api/DSRV.DSRV.html#DSRV_DSRV_GetProfileByIndex_
+  commentId: Overload:DSRV.DSRV.GetProfileByIndex
+  isSpec: "True"
+  fullName: DSRV.DSRV.GetProfileByIndex
+  nameWithType: DSRV.GetProfileByIndex
 - uid: DSRV.DSRV.ReduceFuel
   name: ReduceFuel()
   href: api/DSRV.DSRV.html#DSRV_DSRV_ReduceFuel
@@ -81,6 +178,19 @@ references:
   isSpec: "True"
   fullName: DSRV.DSRV.SpeedY
   nameWithType: DSRV.SpeedY
+- uid: DSRV.DSRV.Start
+  name: Start()
+  href: api/DSRV.DSRV.html#DSRV_DSRV_Start
+  commentId: M:DSRV.DSRV.Start
+  fullName: DSRV.DSRV.Start()
+  nameWithType: DSRV.Start()
+- uid: DSRV.DSRV.Start*
+  name: Start
+  href: api/DSRV.DSRV.html#DSRV_DSRV_Start_
+  commentId: Overload:DSRV.DSRV.Start
+  isSpec: "True"
+  fullName: DSRV.DSRV.Start
+  nameWithType: DSRV.Start
 - uid: DSRV.DSRV.ThrustForce
   name: ThrustForce
   href: api/DSRV.DSRV.html#DSRV_DSRV_ThrustForce
@@ -94,12 +204,104 @@ references:
   isSpec: "True"
   fullName: DSRV.DSRV.ThrustForce
   nameWithType: DSRV.ThrustForce
+- uid: DSRV.DSRV.Update
+  name: Update()
+  href: api/DSRV.DSRV.html#DSRV_DSRV_Update
+  commentId: M:DSRV.DSRV.Update
+  fullName: DSRV.DSRV.Update()
+  nameWithType: DSRV.Update()
+- uid: DSRV.DSRV.Update*
+  name: Update
+  href: api/DSRV.DSRV.html#DSRV_DSRV_Update_
+  commentId: Overload:DSRV.DSRV.Update
+  isSpec: "True"
+  fullName: DSRV.DSRV.Update
+  nameWithType: DSRV.Update
+- uid: DSRV.DSRV.currentProfile
+  name: currentProfile
+  href: api/DSRV.DSRV.html#DSRV_DSRV_currentProfile
+  commentId: F:DSRV.DSRV.currentProfile
+  fullName: DSRV.DSRV.currentProfile
+  nameWithType: DSRV.currentProfile
+- uid: DSRV.DSRV.currentProfileIndex
+  name: currentProfileIndex
+  href: api/DSRV.DSRV.html#DSRV_DSRV_currentProfileIndex
+  commentId: F:DSRV.DSRV.currentProfileIndex
+  fullName: DSRV.DSRV.currentProfileIndex
+  nameWithType: DSRV.currentProfileIndex
+- uid: DSRV.DSRV.depthFinder
+  name: depthFinder
+  href: api/DSRV.DSRV.html#DSRV_DSRV_depthFinder
+  commentId: F:DSRV.DSRV.depthFinder
+  fullName: DSRV.DSRV.depthFinder
+  nameWithType: DSRV.depthFinder
+- uid: DSRV.DSRV.fuel
+  name: fuel
+  href: api/DSRV.DSRV.html#DSRV_DSRV_fuel
+  commentId: F:DSRV.DSRV.fuel
+  fullName: DSRV.DSRV.fuel
+  nameWithType: DSRV.fuel
+- uid: DSRV.DSRV.fuelConsumptionRate
+  name: fuelConsumptionRate
+  href: api/DSRV.DSRV.html#DSRV_DSRV_fuelConsumptionRate
+  commentId: F:DSRV.DSRV.fuelConsumptionRate
+  fullName: DSRV.DSRV.fuelConsumptionRate
+  nameWithType: DSRV.fuelConsumptionRate
+- uid: DSRV.DSRV.lowFuelThreshold
+  name: lowFuelThreshold
+  href: api/DSRV.DSRV.html#DSRV_DSRV_lowFuelThreshold
+  commentId: F:DSRV.DSRV.lowFuelThreshold
+  fullName: DSRV.DSRV.lowFuelThreshold
+  nameWithType: DSRV.lowFuelThreshold
+- uid: DSRV.DSRV.outOfFuel
+  name: outOfFuel
+  href: api/DSRV.DSRV.html#DSRV_DSRV_outOfFuel
+  commentId: F:DSRV.DSRV.outOfFuel
+  fullName: DSRV.DSRV.outOfFuel
+  nameWithType: DSRV.outOfFuel
+- uid: DSRV.DSRV.profiles
+  name: profiles
+  href: api/DSRV.DSRV.html#DSRV_DSRV_profiles
+  commentId: F:DSRV.DSRV.profiles
+  fullName: DSRV.DSRV.profiles
+  nameWithType: DSRV.profiles
+- uid: DSRV.DSRV.rb
+  name: rb
+  href: api/DSRV.DSRV.html#DSRV_DSRV_rb
+  commentId: F:DSRV.DSRV.rb
+  fullName: DSRV.DSRV.rb
+  nameWithType: DSRV.rb
+- uid: DSRV.DSRV.speedX
+  name: speedX
+  href: api/DSRV.DSRV.html#DSRV_DSRV_speedX
+  commentId: F:DSRV.DSRV.speedX
+  fullName: DSRV.DSRV.speedX
+  nameWithType: DSRV.speedX
+- uid: DSRV.DSRV.speedY
+  name: speedY
+  href: api/DSRV.DSRV.html#DSRV_DSRV_speedY
+  commentId: F:DSRV.DSRV.speedY
+  fullName: DSRV.DSRV.speedY
+  nameWithType: DSRV.speedY
 - uid: DSRV.DSRVControls
   name: DSRVControls
   href: api/DSRV.DSRVControls.html
   commentId: T:DSRV.DSRVControls
   fullName: DSRV.DSRVControls
   nameWithType: DSRVControls
+- uid: DSRV.DSRVControls.Awake
+  name: Awake()
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_Awake
+  commentId: M:DSRV.DSRVControls.Awake
+  fullName: DSRV.DSRVControls.Awake()
+  nameWithType: DSRVControls.Awake()
+- uid: DSRV.DSRVControls.Awake*
+  name: Awake
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_Awake_
+  commentId: Overload:DSRV.DSRVControls.Awake
+  isSpec: "True"
+  fullName: DSRV.DSRVControls.Awake
+  nameWithType: DSRVControls.Awake
 - uid: DSRV.DSRVControls.Controls
   name: Controls
   href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_Controls
@@ -126,6 +328,32 @@ references:
   isSpec: "True"
   fullName: DSRV.DSRVControls.MovementControls
   nameWithType: DSRVControls.MovementControls
+- uid: DSRV.DSRVControls.OnDisable
+  name: OnDisable()
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_OnDisable
+  commentId: M:DSRV.DSRVControls.OnDisable
+  fullName: DSRV.DSRVControls.OnDisable()
+  nameWithType: DSRVControls.OnDisable()
+- uid: DSRV.DSRVControls.OnDisable*
+  name: OnDisable
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_OnDisable_
+  commentId: Overload:DSRV.DSRVControls.OnDisable
+  isSpec: "True"
+  fullName: DSRV.DSRVControls.OnDisable
+  nameWithType: DSRVControls.OnDisable
+- uid: DSRV.DSRVControls.OnEnable
+  name: OnEnable()
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_OnEnable
+  commentId: M:DSRV.DSRVControls.OnEnable
+  fullName: DSRV.DSRVControls.OnEnable()
+  nameWithType: DSRVControls.OnEnable()
+- uid: DSRV.DSRVControls.OnEnable*
+  name: OnEnable
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_OnEnable_
+  commentId: Overload:DSRV.DSRVControls.OnEnable
+  isSpec: "True"
+  fullName: DSRV.DSRVControls.OnEnable
+  nameWithType: DSRVControls.OnEnable
 - uid: DSRV.DSRVControls.ThrustControls
   name: ThrustControls
   href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_ThrustControls
@@ -139,6 +367,24 @@ references:
   isSpec: "True"
   fullName: DSRV.DSRVControls.ThrustControls
   nameWithType: DSRVControls.ThrustControls
+- uid: DSRV.DSRVControls.controls
+  name: controls
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_controls
+  commentId: F:DSRV.DSRVControls.controls
+  fullName: DSRV.DSRVControls.controls
+  nameWithType: DSRVControls.controls
+- uid: DSRV.DSRVControls.movementControls
+  name: movementControls
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_movementControls
+  commentId: F:DSRV.DSRVControls.movementControls
+  fullName: DSRV.DSRVControls.movementControls
+  nameWithType: DSRVControls.movementControls
+- uid: DSRV.DSRVControls.thrustControlsScript
+  name: thrustControlsScript
+  href: api/DSRV.DSRVControls.html#DSRV_DSRVControls_thrustControlsScript
+  commentId: F:DSRV.DSRVControls.thrustControlsScript
+  fullName: DSRV.DSRVControls.thrustControlsScript
+  nameWithType: DSRVControls.thrustControlsScript
 - uid: DSRV.DepthFinder
   name: DepthFinder
   href: api/DSRV.DepthFinder.html
@@ -158,12 +404,50 @@ references:
   isSpec: "True"
   fullName: DSRV.DepthFinder.CurrentDepth
   nameWithType: DepthFinder.CurrentDepth
+- uid: DSRV.DepthFinder.FixedUpdate
+  name: FixedUpdate()
+  href: api/DSRV.DepthFinder.html#DSRV_DepthFinder_FixedUpdate
+  commentId: M:DSRV.DepthFinder.FixedUpdate
+  fullName: DSRV.DepthFinder.FixedUpdate()
+  nameWithType: DepthFinder.FixedUpdate()
+- uid: DSRV.DepthFinder.FixedUpdate*
+  name: FixedUpdate
+  href: api/DSRV.DepthFinder.html#DSRV_DepthFinder_FixedUpdate_
+  commentId: Overload:DSRV.DepthFinder.FixedUpdate
+  isSpec: "True"
+  fullName: DSRV.DepthFinder.FixedUpdate
+  nameWithType: DepthFinder.FixedUpdate
+- uid: DSRV.DepthFinder.currentDepth
+  name: currentDepth
+  href: api/DSRV.DepthFinder.html#DSRV_DepthFinder_currentDepth
+  commentId: F:DSRV.DepthFinder.currentDepth
+  fullName: DSRV.DepthFinder.currentDepth
+  nameWithType: DepthFinder.currentDepth
+- uid: DSRV.DepthFinder.layerMask
+  name: layerMask
+  href: api/DSRV.DepthFinder.html#DSRV_DepthFinder_layerMask
+  commentId: F:DSRV.DepthFinder.layerMask
+  fullName: DSRV.DepthFinder.layerMask
+  nameWithType: DepthFinder.layerMask
 - uid: DSRV.ManagerHub
   name: ManagerHub
   href: api/DSRV.ManagerHub.html
   commentId: T:DSRV.ManagerHub
   fullName: DSRV.ManagerHub
   nameWithType: ManagerHub
+- uid: DSRV.ManagerHub.Awake
+  name: Awake()
+  href: api/DSRV.ManagerHub.html#DSRV_ManagerHub_Awake
+  commentId: M:DSRV.ManagerHub.Awake
+  fullName: DSRV.ManagerHub.Awake()
+  nameWithType: ManagerHub.Awake()
+- uid: DSRV.ManagerHub.Awake*
+  name: Awake
+  href: api/DSRV.ManagerHub.html#DSRV_ManagerHub_Awake_
+  commentId: Overload:DSRV.ManagerHub.Awake
+  isSpec: "True"
+  fullName: DSRV.ManagerHub.Awake
+  nameWithType: ManagerHub.Awake
 - uid: DSRV.ManagerHub.Dsrv
   name: Dsrv
   href: api/DSRV.ManagerHub.html#DSRV_ManagerHub_Dsrv
@@ -190,12 +474,119 @@ references:
   isSpec: "True"
   fullName: DSRV.ManagerHub.Instance
   nameWithType: ManagerHub.Instance
+- uid: DSRV.ManagerHub.dsrv
+  name: dsrv
+  href: api/DSRV.ManagerHub.html#DSRV_ManagerHub_dsrv
+  commentId: F:DSRV.ManagerHub.dsrv
+  fullName: DSRV.ManagerHub.dsrv
+  nameWithType: ManagerHub.dsrv
+- uid: DSRV.ManagerHub.instance
+  name: instance
+  href: api/DSRV.ManagerHub.html#DSRV_ManagerHub_instance
+  commentId: F:DSRV.ManagerHub.instance
+  fullName: DSRV.ManagerHub.instance
+  nameWithType: ManagerHub.instance
 - uid: DSRV.MovementControls
   name: MovementControls
   href: api/DSRV.MovementControls.html
   commentId: T:DSRV.MovementControls
   fullName: DSRV.MovementControls
   nameWithType: MovementControls
+- uid: DSRV.MovementControls.HandleRotationInput
+  name: HandleRotationInput()
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_HandleRotationInput
+  commentId: M:DSRV.MovementControls.HandleRotationInput
+  fullName: DSRV.MovementControls.HandleRotationInput()
+  nameWithType: MovementControls.HandleRotationInput()
+- uid: DSRV.MovementControls.HandleRotationInput*
+  name: HandleRotationInput
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_HandleRotationInput_
+  commentId: Overload:DSRV.MovementControls.HandleRotationInput
+  isSpec: "True"
+  fullName: DSRV.MovementControls.HandleRotationInput
+  nameWithType: MovementControls.HandleRotationInput
+- uid: DSRV.MovementControls.OnRotateStart(UnityEngine.InputSystem.InputAction.CallbackContext)
+  name: OnRotateStart(CallbackContext)
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_OnRotateStart_UnityEngine_InputSystem_InputAction_CallbackContext_
+  commentId: M:DSRV.MovementControls.OnRotateStart(UnityEngine.InputSystem.InputAction.CallbackContext)
+  fullName: DSRV.MovementControls.OnRotateStart(UnityEngine.InputSystem.InputAction.CallbackContext)
+  nameWithType: MovementControls.OnRotateStart(InputAction.CallbackContext)
+- uid: DSRV.MovementControls.OnRotateStart*
+  name: OnRotateStart
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_OnRotateStart_
+  commentId: Overload:DSRV.MovementControls.OnRotateStart
+  isSpec: "True"
+  fullName: DSRV.MovementControls.OnRotateStart
+  nameWithType: MovementControls.OnRotateStart
+- uid: DSRV.MovementControls.OnRotateStop(UnityEngine.InputSystem.InputAction.CallbackContext)
+  name: OnRotateStop(CallbackContext)
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_OnRotateStop_UnityEngine_InputSystem_InputAction_CallbackContext_
+  commentId: M:DSRV.MovementControls.OnRotateStop(UnityEngine.InputSystem.InputAction.CallbackContext)
+  fullName: DSRV.MovementControls.OnRotateStop(UnityEngine.InputSystem.InputAction.CallbackContext)
+  nameWithType: MovementControls.OnRotateStop(InputAction.CallbackContext)
+- uid: DSRV.MovementControls.OnRotateStop*
+  name: OnRotateStop
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_OnRotateStop_
+  commentId: Overload:DSRV.MovementControls.OnRotateStop
+  isSpec: "True"
+  fullName: DSRV.MovementControls.OnRotateStop
+  nameWithType: MovementControls.OnRotateStop
+- uid: DSRV.MovementControls.Start
+  name: Start()
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_Start
+  commentId: M:DSRV.MovementControls.Start
+  fullName: DSRV.MovementControls.Start()
+  nameWithType: MovementControls.Start()
+- uid: DSRV.MovementControls.Start*
+  name: Start
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_Start_
+  commentId: Overload:DSRV.MovementControls.Start
+  isSpec: "True"
+  fullName: DSRV.MovementControls.Start
+  nameWithType: MovementControls.Start
+- uid: DSRV.MovementControls.Update
+  name: Update()
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_Update
+  commentId: M:DSRV.MovementControls.Update
+  fullName: DSRV.MovementControls.Update()
+  nameWithType: MovementControls.Update()
+- uid: DSRV.MovementControls.Update*
+  name: Update
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_Update_
+  commentId: Overload:DSRV.MovementControls.Update
+  isSpec: "True"
+  fullName: DSRV.MovementControls.Update
+  nameWithType: MovementControls.Update
+- uid: DSRV.MovementControls.canRotate
+  name: canRotate
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_canRotate
+  commentId: F:DSRV.MovementControls.canRotate
+  fullName: DSRV.MovementControls.canRotate
+  nameWithType: MovementControls.canRotate
+- uid: DSRV.MovementControls.currentRotation
+  name: currentRotation
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_currentRotation
+  commentId: F:DSRV.MovementControls.currentRotation
+  fullName: DSRV.MovementControls.currentRotation
+  nameWithType: MovementControls.currentRotation
+- uid: DSRV.MovementControls.handler
+  name: handler
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_handler
+  commentId: F:DSRV.MovementControls.handler
+  fullName: DSRV.MovementControls.handler
+  nameWithType: MovementControls.handler
+- uid: DSRV.MovementControls.maxRotation
+  name: maxRotation
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_maxRotation
+  commentId: F:DSRV.MovementControls.maxRotation
+  fullName: DSRV.MovementControls.maxRotation
+  nameWithType: MovementControls.maxRotation
+- uid: DSRV.MovementControls.rotationSpeed
+  name: rotationSpeed
+  href: api/DSRV.MovementControls.html#DSRV_MovementControls_rotationSpeed
+  commentId: F:DSRV.MovementControls.rotationSpeed
+  fullName: DSRV.MovementControls.rotationSpeed
+  nameWithType: MovementControls.rotationSpeed
 - uid: DSRV.PlayerInput
   name: PlayerInput
   href: api/DSRV.PlayerInput.html
@@ -492,6 +883,19 @@ references:
   isSpec: "True"
   fullName: PlayerInput.PlayerActions.Thrust
   nameWithType: PlayerInput.PlayerActions.Thrust
+- uid: DSRV.PlayerInput.PlayerActions.UnregisterCallbacks(PlayerInput.IPlayerActions)
+  name: UnregisterCallbacks(IPlayerActions)
+  href: api/DSRV.PlayerInput.PlayerActions.html#DSRV_PlayerInput_PlayerActions_UnregisterCallbacks_PlayerInput_IPlayerActions_
+  commentId: M:DSRV.PlayerInput.PlayerActions.UnregisterCallbacks(PlayerInput.IPlayerActions)
+  fullName: PlayerInput.PlayerActions.UnregisterCallbacks(PlayerInput.IPlayerActions)
+  nameWithType: PlayerInput.PlayerActions.UnregisterCallbacks(PlayerInput.IPlayerActions)
+- uid: DSRV.PlayerInput.PlayerActions.UnregisterCallbacks*
+  name: UnregisterCallbacks
+  href: api/DSRV.PlayerInput.PlayerActions.html#DSRV_PlayerInput_PlayerActions_UnregisterCallbacks_
+  commentId: Overload:DSRV.PlayerInput.PlayerActions.UnregisterCallbacks
+  isSpec: "True"
+  fullName: PlayerInput.PlayerActions.UnregisterCallbacks
+  nameWithType: PlayerInput.PlayerActions.UnregisterCallbacks
 - uid: DSRV.PlayerInput.PlayerActions.enabled
   name: enabled
   href: api/DSRV.PlayerInput.PlayerActions.html#DSRV_PlayerInput_PlayerActions_enabled
@@ -505,6 +909,12 @@ references:
   isSpec: "True"
   fullName: PlayerInput.PlayerActions.enabled
   nameWithType: PlayerInput.PlayerActions.enabled
+- uid: DSRV.PlayerInput.PlayerActions.m_Wrapper
+  name: m_Wrapper
+  href: api/DSRV.PlayerInput.PlayerActions.html#DSRV_PlayerInput_PlayerActions_m_Wrapper
+  commentId: F:DSRV.PlayerInput.PlayerActions.m_Wrapper
+  fullName: PlayerInput.PlayerActions.m_Wrapper
+  nameWithType: PlayerInput.PlayerActions.m_Wrapper
 - uid: DSRV.PlayerInput.PlayerActions.op_Implicit(PlayerInput.PlayerActions)~UnityEngine.InputSystem.InputActionMap
   name: implicit operator InputActionMap(PlayerActions)
   href: api/DSRV.PlayerInput.PlayerActions.html#DSRV_PlayerInput_PlayerActions_op_Implicit_PlayerInput_PlayerActions__UnityEngine_InputSystem_InputActionMap
@@ -589,24 +999,93 @@ references:
   isSpec: "True"
   fullName: PlayerInput.devices
   nameWithType: PlayerInput.devices
+- uid: DSRV.PlayerInput.m_Player
+  name: m_Player
+  href: api/DSRV.PlayerInput.html#DSRV_PlayerInput_m_Player
+  commentId: F:DSRV.PlayerInput.m_Player
+  fullName: PlayerInput.m_Player
+  nameWithType: PlayerInput.m_Player
+- uid: DSRV.PlayerInput.m_PlayerActionsCallbackInterfaces
+  name: m_PlayerActionsCallbackInterfaces
+  href: api/DSRV.PlayerInput.html#DSRV_PlayerInput_m_PlayerActionsCallbackInterfaces
+  commentId: F:DSRV.PlayerInput.m_PlayerActionsCallbackInterfaces
+  fullName: PlayerInput.m_PlayerActionsCallbackInterfaces
+  nameWithType: PlayerInput.m_PlayerActionsCallbackInterfaces
+- uid: DSRV.PlayerInput.m_Player_Controls
+  name: m_Player_Controls
+  href: api/DSRV.PlayerInput.html#DSRV_PlayerInput_m_Player_Controls
+  commentId: F:DSRV.PlayerInput.m_Player_Controls
+  fullName: PlayerInput.m_Player_Controls
+  nameWithType: PlayerInput.m_Player_Controls
+- uid: DSRV.PlayerInput.m_Player_Thrust
+  name: m_Player_Thrust
+  href: api/DSRV.PlayerInput.html#DSRV_PlayerInput_m_Player_Thrust
+  commentId: F:DSRV.PlayerInput.m_Player_Thrust
+  fullName: PlayerInput.m_Player_Thrust
+  nameWithType: PlayerInput.m_Player_Thrust
 - uid: DSRV.Relocator
   name: Relocator
   href: api/DSRV.Relocator.html
   commentId: T:DSRV.Relocator
   fullName: DSRV.Relocator
   nameWithType: Relocator
+- uid: DSRV.Relocator.Update
+  name: Update()
+  href: api/DSRV.Relocator.html#DSRV_Relocator_Update
+  commentId: M:DSRV.Relocator.Update
+  fullName: DSRV.Relocator.Update()
+  nameWithType: Relocator.Update()
+- uid: DSRV.Relocator.Update*
+  name: Update
+  href: api/DSRV.Relocator.html#DSRV_Relocator_Update_
+  commentId: Overload:DSRV.Relocator.Update
+  isSpec: "True"
+  fullName: DSRV.Relocator.Update
+  nameWithType: Relocator.Update
 - uid: DSRV.Relocator.negativeX
   name: negativeX
   href: api/DSRV.Relocator.html#DSRV_Relocator_negativeX
   commentId: F:DSRV.Relocator.negativeX
   fullName: DSRV.Relocator.negativeX
   nameWithType: Relocator.negativeX
+- uid: DSRV.Relocator.positiveX
+  name: positiveX
+  href: api/DSRV.Relocator.html#DSRV_Relocator_positiveX
+  commentId: F:DSRV.Relocator.positiveX
+  fullName: DSRV.Relocator.positiveX
+  nameWithType: Relocator.positiveX
 - uid: DSRV.Respawner
   name: Respawner
   href: api/DSRV.Respawner.html
   commentId: T:DSRV.Respawner
   fullName: DSRV.Respawner
   nameWithType: Respawner
+- uid: DSRV.Respawner.Awake
+  name: Awake()
+  href: api/DSRV.Respawner.html#DSRV_Respawner_Awake
+  commentId: M:DSRV.Respawner.Awake
+  fullName: DSRV.Respawner.Awake()
+  nameWithType: Respawner.Awake()
+- uid: DSRV.Respawner.Awake*
+  name: Awake
+  href: api/DSRV.Respawner.html#DSRV_Respawner_Awake_
+  commentId: Overload:DSRV.Respawner.Awake
+  isSpec: "True"
+  fullName: DSRV.Respawner.Awake
+  nameWithType: Respawner.Awake
+- uid: DSRV.Respawner.OnDestroy
+  name: OnDestroy()
+  href: api/DSRV.Respawner.html#DSRV_Respawner_OnDestroy
+  commentId: M:DSRV.Respawner.OnDestroy
+  fullName: DSRV.Respawner.OnDestroy()
+  nameWithType: Respawner.OnDestroy()
+- uid: DSRV.Respawner.OnDestroy*
+  name: OnDestroy
+  href: api/DSRV.Respawner.html#DSRV_Respawner_OnDestroy_
+  commentId: Overload:DSRV.Respawner.OnDestroy
+  isSpec: "True"
+  fullName: DSRV.Respawner.OnDestroy
+  nameWithType: Respawner.OnDestroy
 - uid: DSRV.Respawner.OnPlayerRespawn
   name: OnPlayerRespawn()
   href: api/DSRV.Respawner.html#DSRV_Respawner_OnPlayerRespawn
@@ -620,12 +1099,31 @@ references:
   isSpec: "True"
   fullName: DSRV.Respawner.OnPlayerRespawn
   nameWithType: Respawner.OnPlayerRespawn
+- uid: DSRV.Respawner.RespawnPlayer
+  name: RespawnPlayer()
+  href: api/DSRV.Respawner.html#DSRV_Respawner_RespawnPlayer
+  commentId: M:DSRV.Respawner.RespawnPlayer
+  fullName: DSRV.Respawner.RespawnPlayer()
+  nameWithType: Respawner.RespawnPlayer()
+- uid: DSRV.Respawner.RespawnPlayer*
+  name: RespawnPlayer
+  href: api/DSRV.Respawner.html#DSRV_Respawner_RespawnPlayer_
+  commentId: Overload:DSRV.Respawner.RespawnPlayer
+  isSpec: "True"
+  fullName: DSRV.Respawner.RespawnPlayer
+  nameWithType: Respawner.RespawnPlayer
 - uid: DSRV.Respawner.onPlayerRespawn
   name: onPlayerRespawn
   href: api/DSRV.Respawner.html#DSRV_Respawner_onPlayerRespawn
   commentId: E:DSRV.Respawner.onPlayerRespawn
   fullName: DSRV.Respawner.onPlayerRespawn
   nameWithType: Respawner.onPlayerRespawn
+- uid: DSRV.Respawner.respawnPoint
+  name: respawnPoint
+  href: api/DSRV.Respawner.html#DSRV_Respawner_respawnPoint
+  commentId: F:DSRV.Respawner.respawnPoint
+  fullName: DSRV.Respawner.respawnPoint
+  nameWithType: Respawner.respawnPoint
 - uid: DSRV.ShipProfile
   name: ShipProfile
   href: api/DSRV.ShipProfile.html
@@ -662,9 +1160,174 @@ references:
   commentId: T:DSRV.TerrainGenerator
   fullName: DSRV.TerrainGenerator
   nameWithType: TerrainGenerator
+- uid: DSRV.TerrainGenerator.GenerateTerrain
+  name: GenerateTerrain()
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_GenerateTerrain
+  commentId: M:DSRV.TerrainGenerator.GenerateTerrain
+  fullName: DSRV.TerrainGenerator.GenerateTerrain()
+  nameWithType: TerrainGenerator.GenerateTerrain()
+- uid: DSRV.TerrainGenerator.GenerateTerrain*
+  name: GenerateTerrain
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_GenerateTerrain_
+  commentId: Overload:DSRV.TerrainGenerator.GenerateTerrain
+  isSpec: "True"
+  fullName: DSRV.TerrainGenerator.GenerateTerrain
+  nameWithType: TerrainGenerator.GenerateTerrain
+- uid: DSRV.TerrainGenerator.ShowTiles
+  name: ShowTiles()
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_ShowTiles
+  commentId: M:DSRV.TerrainGenerator.ShowTiles
+  fullName: DSRV.TerrainGenerator.ShowTiles()
+  nameWithType: TerrainGenerator.ShowTiles()
+- uid: DSRV.TerrainGenerator.ShowTiles*
+  name: ShowTiles
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_ShowTiles_
+  commentId: Overload:DSRV.TerrainGenerator.ShowTiles
+  isSpec: "True"
+  fullName: DSRV.TerrainGenerator.ShowTiles
+  nameWithType: TerrainGenerator.ShowTiles
+- uid: DSRV.TerrainGenerator.Start
+  name: Start()
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_Start
+  commentId: M:DSRV.TerrainGenerator.Start
+  fullName: DSRV.TerrainGenerator.Start()
+  nameWithType: TerrainGenerator.Start()
+- uid: DSRV.TerrainGenerator.Start*
+  name: Start
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_Start_
+  commentId: Overload:DSRV.TerrainGenerator.Start
+  isSpec: "True"
+  fullName: DSRV.TerrainGenerator.Start
+  nameWithType: TerrainGenerator.Start
+- uid: DSRV.TerrainGenerator.Update
+  name: Update()
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_Update
+  commentId: M:DSRV.TerrainGenerator.Update
+  fullName: DSRV.TerrainGenerator.Update()
+  nameWithType: TerrainGenerator.Update()
+- uid: DSRV.TerrainGenerator.Update*
+  name: Update
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_Update_
+  commentId: Overload:DSRV.TerrainGenerator.Update
+  isSpec: "True"
+  fullName: DSRV.TerrainGenerator.Update
+  nameWithType: TerrainGenerator.Update
+- uid: DSRV.TerrainGenerator.numberOfTilesToGenerate
+  name: numberOfTilesToGenerate
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_numberOfTilesToGenerate
+  commentId: F:DSRV.TerrainGenerator.numberOfTilesToGenerate
+  fullName: DSRV.TerrainGenerator.numberOfTilesToGenerate
+  nameWithType: TerrainGenerator.numberOfTilesToGenerate
+- uid: DSRV.TerrainGenerator.playerStartPos
+  name: playerStartPos
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_playerStartPos
+  commentId: F:DSRV.TerrainGenerator.playerStartPos
+  fullName: DSRV.TerrainGenerator.playerStartPos
+  nameWithType: TerrainGenerator.playerStartPos
+- uid: DSRV.TerrainGenerator.pov
+  name: pov
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_pov
+  commentId: F:DSRV.TerrainGenerator.pov
+  fullName: DSRV.TerrainGenerator.pov
+  nameWithType: TerrainGenerator.pov
+- uid: DSRV.TerrainGenerator.tiles
+  name: tiles
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_tiles
+  commentId: F:DSRV.TerrainGenerator.tiles
+  fullName: DSRV.TerrainGenerator.tiles
+  nameWithType: TerrainGenerator.tiles
+- uid: DSRV.TerrainGenerator.tilesPrefabs
+  name: tilesPrefabs
+  href: api/DSRV.TerrainGenerator.html#DSRV_TerrainGenerator_tilesPrefabs
+  commentId: F:DSRV.TerrainGenerator.tilesPrefabs
+  fullName: DSRV.TerrainGenerator.tilesPrefabs
+  nameWithType: TerrainGenerator.tilesPrefabs
 - uid: DSRV.ThrustControls
   name: ThrustControls
   href: api/DSRV.ThrustControls.html
   commentId: T:DSRV.ThrustControls
   fullName: DSRV.ThrustControls
   nameWithType: ThrustControls
+- uid: DSRV.ThrustControls.FixedUpdate
+  name: FixedUpdate()
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_FixedUpdate
+  commentId: M:DSRV.ThrustControls.FixedUpdate
+  fullName: DSRV.ThrustControls.FixedUpdate()
+  nameWithType: ThrustControls.FixedUpdate()
+- uid: DSRV.ThrustControls.FixedUpdate*
+  name: FixedUpdate
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_FixedUpdate_
+  commentId: Overload:DSRV.ThrustControls.FixedUpdate
+  isSpec: "True"
+  fullName: DSRV.ThrustControls.FixedUpdate
+  nameWithType: ThrustControls.FixedUpdate
+- uid: DSRV.ThrustControls.OnThrust
+  name: OnThrust()
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_OnThrust
+  commentId: M:DSRV.ThrustControls.OnThrust
+  fullName: DSRV.ThrustControls.OnThrust()
+  nameWithType: ThrustControls.OnThrust()
+- uid: DSRV.ThrustControls.OnThrust*
+  name: OnThrust
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_OnThrust_
+  commentId: Overload:DSRV.ThrustControls.OnThrust
+  isSpec: "True"
+  fullName: DSRV.ThrustControls.OnThrust
+  nameWithType: ThrustControls.OnThrust
+- uid: DSRV.ThrustControls.OnThrustStart(UnityEngine.InputSystem.InputAction.CallbackContext)
+  name: OnThrustStart(CallbackContext)
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_OnThrustStart_UnityEngine_InputSystem_InputAction_CallbackContext_
+  commentId: M:DSRV.ThrustControls.OnThrustStart(UnityEngine.InputSystem.InputAction.CallbackContext)
+  fullName: DSRV.ThrustControls.OnThrustStart(UnityEngine.InputSystem.InputAction.CallbackContext)
+  nameWithType: ThrustControls.OnThrustStart(InputAction.CallbackContext)
+- uid: DSRV.ThrustControls.OnThrustStart*
+  name: OnThrustStart
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_OnThrustStart_
+  commentId: Overload:DSRV.ThrustControls.OnThrustStart
+  isSpec: "True"
+  fullName: DSRV.ThrustControls.OnThrustStart
+  nameWithType: ThrustControls.OnThrustStart
+- uid: DSRV.ThrustControls.OnThrustStop(UnityEngine.InputSystem.InputAction.CallbackContext)
+  name: OnThrustStop(CallbackContext)
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_OnThrustStop_UnityEngine_InputSystem_InputAction_CallbackContext_
+  commentId: M:DSRV.ThrustControls.OnThrustStop(UnityEngine.InputSystem.InputAction.CallbackContext)
+  fullName: DSRV.ThrustControls.OnThrustStop(UnityEngine.InputSystem.InputAction.CallbackContext)
+  nameWithType: ThrustControls.OnThrustStop(InputAction.CallbackContext)
+- uid: DSRV.ThrustControls.OnThrustStop*
+  name: OnThrustStop
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_OnThrustStop_
+  commentId: Overload:DSRV.ThrustControls.OnThrustStop
+  isSpec: "True"
+  fullName: DSRV.ThrustControls.OnThrustStop
+  nameWithType: ThrustControls.OnThrustStop
+- uid: DSRV.ThrustControls.Start
+  name: Start()
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_Start
+  commentId: M:DSRV.ThrustControls.Start
+  fullName: DSRV.ThrustControls.Start()
+  nameWithType: ThrustControls.Start()
+- uid: DSRV.ThrustControls.Start*
+  name: Start
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_Start_
+  commentId: Overload:DSRV.ThrustControls.Start
+  isSpec: "True"
+  fullName: DSRV.ThrustControls.Start
+  nameWithType: ThrustControls.Start
+- uid: DSRV.ThrustControls.dsrv
+  name: dsrv
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_dsrv
+  commentId: F:DSRV.ThrustControls.dsrv
+  fullName: DSRV.ThrustControls.dsrv
+  nameWithType: ThrustControls.dsrv
+- uid: DSRV.ThrustControls.handler
+  name: handler
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_handler
+  commentId: F:DSRV.ThrustControls.handler
+  fullName: DSRV.ThrustControls.handler
+  nameWithType: ThrustControls.handler
+- uid: DSRV.ThrustControls.isThrusting
+  name: isThrusting
+  href: api/DSRV.ThrustControls.html#DSRV_ThrustControls_isThrusting
+  commentId: F:DSRV.ThrustControls.isThrusting
+  fullName: DSRV.ThrustControls.isThrusting
+  nameWithType: ThrustControls.isThrusting

@@ -117,6 +117,275 @@
 
 
 
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DSRV_TerrainGenerator_numberOfTilesToGenerate" data-uid="DSRV.TerrainGenerator.numberOfTilesToGenerate">
+  numberOfTilesToGenerate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Number of tiles to generate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int numberOfTilesToGenerate</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_TerrainGenerator_playerStartPos" data-uid="DSRV.TerrainGenerator.playerStartPos">
+  playerStartPos
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initial position of the player</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Vector2 playerStartPos</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_TerrainGenerator_pov" data-uid="DSRV.TerrainGenerator.pov">
+  pov
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Field to determine the visible range for tiles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private float pov</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_TerrainGenerator_tiles" data-uid="DSRV.TerrainGenerator.tiles">
+  tiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Array to store all instantiated tiles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private GameObject[] tiles</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_TerrainGenerator_tilesPrefabs" data-uid="DSRV.TerrainGenerator.tilesPrefabs">
+  tilesPrefabs
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Array to store tiles prefabs</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private GameObject[] tilesPrefabs</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GameObject</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DSRV_TerrainGenerator_GenerateTerrain_" data-uid="DSRV.TerrainGenerator.GenerateTerrain*"></a>
+
+  <h3 id="DSRV_TerrainGenerator_GenerateTerrain" data-uid="DSRV.TerrainGenerator.GenerateTerrain">
+  GenerateTerrain()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Generates the terrain</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void GenerateTerrain()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_TerrainGenerator_ShowTiles_" data-uid="DSRV.TerrainGenerator.ShowTiles*"></a>
+
+  <h3 id="DSRV_TerrainGenerator_ShowTiles" data-uid="DSRV.TerrainGenerator.ShowTiles">
+  ShowTiles()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shows or hides tiles based on their distance from the player's view.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void ShowTiles()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_TerrainGenerator_Start_" data-uid="DSRV.TerrainGenerator.Start*"></a>
+
+  <h3 id="DSRV_TerrainGenerator_Start" data-uid="DSRV.TerrainGenerator.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_TerrainGenerator_Update_" data-uid="DSRV.TerrainGenerator.Update*"></a>
+
+  <h3 id="DSRV_TerrainGenerator_Update" data-uid="DSRV.TerrainGenerator.Update">
+  Update()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Update()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </article>
 
