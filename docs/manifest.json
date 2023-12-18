@@ -1,0 +1,232 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/micha/Desktop/MaslasBros/DSRV_lander/dsrv_site",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.CameraHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.CameraHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.DSRV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.DSRV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.DSRVControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.DSRVControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.DepthFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.DepthFinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.ManagerHub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.ManagerHub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.MovementControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.MovementControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.PlayerInput.IPlayerActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.PlayerInput.IPlayerActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.PlayerInput.PlayerActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.PlayerInput.PlayerActions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.PlayerInput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.PlayerInput.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Relocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Relocator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Respawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Respawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.ShipProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.ShipProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.TerrainGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.TerrainGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.ThrustControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.ThrustControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
