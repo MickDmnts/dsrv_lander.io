@@ -15,6 +15,136 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.CameraHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.CameraHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.DSRVControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.DSRVControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.DsrvDestruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.DsrvDestruction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.ManagerHub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.ManagerHub.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.MovementControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.MovementControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.PlayerDSRV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.PlayerDSRV.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.Relocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.Relocator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.Respawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.Respawner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.SFXHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.SFXHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.ScoreHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.ScoreHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.ShipProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.ShipProfile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.ThrustControls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.ThrustControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DSRV.DSRV.yml",
       "output": {
         ".html": {
@@ -115,6 +245,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Sensors.DepthFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Sensors.DepthFinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Sensors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Sensors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DSRV.ShipProfile.yml",
       "output": {
         ".html": {
@@ -139,6 +289,56 @@
       "output": {
         ".html": {
           "relative_path": "api/DSRV.ThrustControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.UIHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.UIHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.World.LandingPad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.World.LandingPad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.World.ParallaxScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.World.ParallaxScript.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.World.TerrainGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.World.TerrainGenerator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.World.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.World.html"
         }
       },
       "version": ""

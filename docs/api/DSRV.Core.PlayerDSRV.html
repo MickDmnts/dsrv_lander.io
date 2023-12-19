@@ -1,0 +1,823 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PlayerDSRV
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PlayerDSRV
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="DSRV.Core.PlayerDSRV">
+
+
+
+  <h1 id="DSRV_Core_PlayerDSRV" data-uid="DSRV.Core.PlayerDSRV" class="text-break">
+    Class PlayerDSRV
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="DSRV.html">DSRV</a>.<a class="xref" href="DSRV.Core.html">Core</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Assembly-CSharp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PlayerDSRV : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">PlayerDSRV</span></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_currentProfile" data-uid="DSRV.Core.PlayerDSRV.currentProfile">
+  currentProfile
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private ShipProfile currentProfile</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DSRV.Core.ShipProfile.html">ShipProfile</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_currentProfileIndex" data-uid="DSRV.Core.PlayerDSRV.currentProfileIndex">
+  currentProfileIndex
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int currentProfileIndex</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_depthFinder" data-uid="DSRV.Core.PlayerDSRV.depthFinder">
+  depthFinder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reference to the player depth finder sensor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private DepthFinder depthFinder</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DSRV.Sensors.DepthFinder.html">DepthFinder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_lowOxygenThreshold" data-uid="DSRV.Core.PlayerDSRV.lowOxygenThreshold">
+  lowOxygenThreshold
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private float lowOxygenThreshold</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_outOfOxygen" data-uid="DSRV.Core.PlayerDSRV.outOfOxygen">
+  outOfOxygen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private bool outOfOxygen</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_oxygen" data-uid="DSRV.Core.PlayerDSRV.oxygen">
+  oxygen
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private float oxygen</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_oxygenConsumptionRate" data-uid="DSRV.Core.PlayerDSRV.oxygenConsumptionRate">
+  oxygenConsumptionRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private float oxygenConsumptionRate</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_profiles" data-uid="DSRV.Core.PlayerDSRV.profiles">
+  profiles
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private ShipProfile[] profiles</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DSRV.Core.ShipProfile.html">ShipProfile</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_rb" data-uid="DSRV.Core.PlayerDSRV.rb">
+  rb
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private Rigidbody rb</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Rigidbody</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_speedX" data-uid="DSRV.Core.PlayerDSRV.speedX">
+  speedX
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Speed along the X-axis</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private float speedX</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="DSRV_Core_PlayerDSRV_speedY" data-uid="DSRV.Core.PlayerDSRV.speedY">
+  speedY
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Speed along the Y-axis</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private float speedY</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="DSRV_Core_PlayerDSRV_DepthFinder_" data-uid="DSRV.Core.PlayerDSRV.DepthFinder*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_DepthFinder" data-uid="DSRV.Core.PlayerDSRV.DepthFinder">
+  DepthFinder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reference to the player depth finder sensor</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DepthFinder DepthFinder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DSRV.Sensors.DepthFinder.html">DepthFinder</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_OutOfOxygen_" data-uid="DSRV.Core.PlayerDSRV.OutOfOxygen*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_OutOfOxygen" data-uid="DSRV.Core.PlayerDSRV.OutOfOxygen">
+  OutOfOxygen
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Is the dsrv out of oxygen?</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool OutOfOxygen { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_Rigidbody_" data-uid="DSRV.Core.PlayerDSRV.Rigidbody*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_Rigidbody" data-uid="DSRV.Core.PlayerDSRV.Rigidbody">
+  Rigidbody
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rigidbody Rigidbody { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Rigidbody</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_SpeedX_" data-uid="DSRV.Core.PlayerDSRV.SpeedX*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_SpeedX" data-uid="DSRV.Core.PlayerDSRV.SpeedX">
+  SpeedX
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Getter for accessing the speed along the X-axis</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpeedX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_SpeedY_" data-uid="DSRV.Core.PlayerDSRV.SpeedY*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_SpeedY" data-uid="DSRV.Core.PlayerDSRV.SpeedY">
+  SpeedY
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Getter for accessing the speed along the Y-axis</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpeedY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_ThrustForce_" data-uid="DSRV.Core.PlayerDSRV.ThrustForce*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_ThrustForce" data-uid="DSRV.Core.PlayerDSRV.ThrustForce">
+  ThrustForce
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The thrust force of the DSRV</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ThrustForce { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="DSRV_Core_PlayerDSRV_Awake_" data-uid="DSRV.Core.PlayerDSRV.Awake*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_Awake" data-uid="DSRV.Core.PlayerDSRV.Awake">
+  Awake()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Awake()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_GetProfileByIndex_" data-uid="DSRV.Core.PlayerDSRV.GetProfileByIndex*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_GetProfileByIndex_System_Int32_" data-uid="DSRV.Core.PlayerDSRV.GetProfileByIndex(System.Int32)">
+  GetProfileByIndex(int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieves a ShipProfile from the 'profiles' array based on the provided index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private ShipProfile GetProfileByIndex(int index)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>index</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The index used to get the ShipProfile</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="DSRV.Core.ShipProfile.html">ShipProfile</a></dt>
+    <dd><p>The ShipProfile corresponding to the provided index</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_ReduceOxygen_" data-uid="DSRV.Core.PlayerDSRV.ReduceOxygen*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_ReduceOxygen" data-uid="DSRV.Core.PlayerDSRV.ReduceOxygen">
+  ReduceOxygen()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reduces the oxygen based on consumption rate and time</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReduceOxygen()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_Start_" data-uid="DSRV.Core.PlayerDSRV.Start*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_Start" data-uid="DSRV.Core.PlayerDSRV.Start">
+  Start()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Start()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="DSRV_Core_PlayerDSRV_Update_" data-uid="DSRV.Core.PlayerDSRV.Update*"></a>
+
+  <h3 id="DSRV_Core_PlayerDSRV_Update" data-uid="DSRV.Core.PlayerDSRV.Update">
+  Update()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private void Update()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
