@@ -279,6 +279,127 @@ references:
   isSpec: "True"
   fullName: DSRV.Core.DsrvDestruction.OnCollisionEnter
   nameWithType: DsrvDestruction.OnCollisionEnter
+- uid: DSRV.Core.InternalClock
+  name: InternalClock
+  href: api/DSRV.Core.InternalClock.html
+  commentId: T:DSRV.Core.InternalClock
+  fullName: DSRV.Core.InternalClock
+  nameWithType: InternalClock
+- uid: DSRV.Core.InternalClock.ClockTick
+  name: ClockTick()
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_ClockTick
+  commentId: M:DSRV.Core.InternalClock.ClockTick
+  fullName: DSRV.Core.InternalClock.ClockTick()
+  nameWithType: InternalClock.ClockTick()
+- uid: DSRV.Core.InternalClock.ClockTick*
+  name: ClockTick
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_ClockTick_
+  commentId: Overload:DSRV.Core.InternalClock.ClockTick
+  isSpec: "True"
+  fullName: DSRV.Core.InternalClock.ClockTick
+  nameWithType: InternalClock.ClockTick
+- uid: DSRV.Core.InternalClock.FixedUpdate
+  name: FixedUpdate()
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_FixedUpdate
+  commentId: M:DSRV.Core.InternalClock.FixedUpdate
+  fullName: DSRV.Core.InternalClock.FixedUpdate()
+  nameWithType: InternalClock.FixedUpdate()
+- uid: DSRV.Core.InternalClock.FixedUpdate*
+  name: FixedUpdate
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_FixedUpdate_
+  commentId: Overload:DSRV.Core.InternalClock.FixedUpdate
+  isSpec: "True"
+  fullName: DSRV.Core.InternalClock.FixedUpdate
+  nameWithType: InternalClock.FixedUpdate
+- uid: DSRV.Core.InternalClock.Minutes
+  name: Minutes
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_Minutes
+  commentId: P:DSRV.Core.InternalClock.Minutes
+  fullName: DSRV.Core.InternalClock.Minutes
+  nameWithType: InternalClock.Minutes
+- uid: DSRV.Core.InternalClock.Minutes*
+  name: Minutes
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_Minutes_
+  commentId: Overload:DSRV.Core.InternalClock.Minutes
+  isSpec: "True"
+  fullName: DSRV.Core.InternalClock.Minutes
+  nameWithType: InternalClock.Minutes
+- uid: DSRV.Core.InternalClock.PauseClock
+  name: PauseClock()
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_PauseClock
+  commentId: M:DSRV.Core.InternalClock.PauseClock
+  fullName: DSRV.Core.InternalClock.PauseClock()
+  nameWithType: InternalClock.PauseClock()
+- uid: DSRV.Core.InternalClock.PauseClock*
+  name: PauseClock
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_PauseClock_
+  commentId: Overload:DSRV.Core.InternalClock.PauseClock
+  isSpec: "True"
+  fullName: DSRV.Core.InternalClock.PauseClock
+  nameWithType: InternalClock.PauseClock
+- uid: DSRV.Core.InternalClock.ResetClock
+  name: ResetClock()
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_ResetClock
+  commentId: M:DSRV.Core.InternalClock.ResetClock
+  fullName: DSRV.Core.InternalClock.ResetClock()
+  nameWithType: InternalClock.ResetClock()
+- uid: DSRV.Core.InternalClock.ResetClock*
+  name: ResetClock
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_ResetClock_
+  commentId: Overload:DSRV.Core.InternalClock.ResetClock
+  isSpec: "True"
+  fullName: DSRV.Core.InternalClock.ResetClock
+  nameWithType: InternalClock.ResetClock
+- uid: DSRV.Core.InternalClock.Seconds
+  name: Seconds
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_Seconds
+  commentId: P:DSRV.Core.InternalClock.Seconds
+  fullName: DSRV.Core.InternalClock.Seconds
+  nameWithType: InternalClock.Seconds
+- uid: DSRV.Core.InternalClock.Seconds*
+  name: Seconds
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_Seconds_
+  commentId: Overload:DSRV.Core.InternalClock.Seconds
+  isSpec: "True"
+  fullName: DSRV.Core.InternalClock.Seconds
+  nameWithType: InternalClock.Seconds
+- uid: DSRV.Core.InternalClock.StartClock
+  name: StartClock()
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_StartClock
+  commentId: M:DSRV.Core.InternalClock.StartClock
+  fullName: DSRV.Core.InternalClock.StartClock()
+  nameWithType: InternalClock.StartClock()
+- uid: DSRV.Core.InternalClock.StartClock*
+  name: StartClock
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_StartClock_
+  commentId: Overload:DSRV.Core.InternalClock.StartClock
+  isSpec: "True"
+  fullName: DSRV.Core.InternalClock.StartClock
+  nameWithType: InternalClock.StartClock
+- uid: DSRV.Core.InternalClock.isCounting
+  name: isCounting
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_isCounting
+  commentId: F:DSRV.Core.InternalClock.isCounting
+  fullName: DSRV.Core.InternalClock.isCounting
+  nameWithType: InternalClock.isCounting
+- uid: DSRV.Core.InternalClock.minutes
+  name: minutes
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_minutes
+  commentId: F:DSRV.Core.InternalClock.minutes
+  fullName: DSRV.Core.InternalClock.minutes
+  nameWithType: InternalClock.minutes
+- uid: DSRV.Core.InternalClock.seconds
+  name: seconds
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_seconds
+  commentId: F:DSRV.Core.InternalClock.seconds
+  fullName: DSRV.Core.InternalClock.seconds
+  nameWithType: InternalClock.seconds
+- uid: DSRV.Core.InternalClock.timer
+  name: timer
+  href: api/DSRV.Core.InternalClock.html#DSRV_Core_InternalClock_timer
+  commentId: F:DSRV.Core.InternalClock.timer
+  fullName: DSRV.Core.InternalClock.timer
+  nameWithType: InternalClock.timer
 - uid: DSRV.Core.ManagerHub
   name: ManagerHub
   href: api/DSRV.Core.ManagerHub.html
@@ -337,6 +458,19 @@ references:
   isSpec: "True"
   fullName: DSRV.Core.ManagerHub.Instance
   nameWithType: ManagerHub.Instance
+- uid: DSRV.Core.ManagerHub.InternalClock
+  name: InternalClock
+  href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_InternalClock
+  commentId: P:DSRV.Core.ManagerHub.InternalClock
+  fullName: DSRV.Core.ManagerHub.InternalClock
+  nameWithType: ManagerHub.InternalClock
+- uid: DSRV.Core.ManagerHub.InternalClock*
+  name: InternalClock
+  href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_InternalClock_
+  commentId: Overload:DSRV.Core.ManagerHub.InternalClock
+  isSpec: "True"
+  fullName: DSRV.Core.ManagerHub.InternalClock
+  nameWithType: ManagerHub.InternalClock
 - uid: DSRV.Core.ManagerHub.Respawner
   name: Respawner
   href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_Respawner
@@ -376,6 +510,19 @@ references:
   isSpec: "True"
   fullName: DSRV.Core.ManagerHub.ScoreHandler
   nameWithType: ManagerHub.ScoreHandler
+- uid: DSRV.Core.ManagerHub.Start
+  name: Start()
+  href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_Start
+  commentId: M:DSRV.Core.ManagerHub.Start
+  fullName: DSRV.Core.ManagerHub.Start()
+  nameWithType: ManagerHub.Start()
+- uid: DSRV.Core.ManagerHub.Start*
+  name: Start
+  href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_Start_
+  commentId: Overload:DSRV.Core.ManagerHub.Start
+  isSpec: "True"
+  fullName: DSRV.Core.ManagerHub.Start
+  nameWithType: ManagerHub.Start
 - uid: DSRV.Core.ManagerHub.dsrv
   name: dsrv
   href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_dsrv
@@ -388,6 +535,12 @@ references:
   commentId: F:DSRV.Core.ManagerHub.instance
   fullName: DSRV.Core.ManagerHub.instance
   nameWithType: ManagerHub.instance
+- uid: DSRV.Core.ManagerHub.internalClock
+  name: internalClock
+  href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_internalClock
+  commentId: F:DSRV.Core.ManagerHub.internalClock
+  fullName: DSRV.Core.ManagerHub.internalClock
+  nameWithType: ManagerHub.internalClock
 - uid: DSRV.Core.ManagerHub.respawner
   name: respawner
   href: api/DSRV.Core.ManagerHub.html#DSRV_Core_ManagerHub_respawner
@@ -526,6 +679,19 @@ references:
   isSpec: "True"
   fullName: DSRV.Core.PlayerDSRV.Awake
   nameWithType: PlayerDSRV.Awake
+- uid: DSRV.Core.PlayerDSRV.CurrentOxygen
+  name: CurrentOxygen
+  href: api/DSRV.Core.PlayerDSRV.html#DSRV_Core_PlayerDSRV_CurrentOxygen
+  commentId: P:DSRV.Core.PlayerDSRV.CurrentOxygen
+  fullName: DSRV.Core.PlayerDSRV.CurrentOxygen
+  nameWithType: PlayerDSRV.CurrentOxygen
+- uid: DSRV.Core.PlayerDSRV.CurrentOxygen*
+  name: CurrentOxygen
+  href: api/DSRV.Core.PlayerDSRV.html#DSRV_Core_PlayerDSRV_CurrentOxygen_
+  commentId: Overload:DSRV.Core.PlayerDSRV.CurrentOxygen
+  isSpec: "True"
+  fullName: DSRV.Core.PlayerDSRV.CurrentOxygen
+  nameWithType: PlayerDSRV.CurrentOxygen
 - uid: DSRV.Core.PlayerDSRV.DepthFinder
   name: DepthFinder
   href: api/DSRV.Core.PlayerDSRV.html#DSRV_Core_PlayerDSRV_DepthFinder
@@ -943,6 +1109,19 @@ references:
   isSpec: "True"
   fullName: DSRV.Core.ScoreHandler.ResetScore
   nameWithType: ScoreHandler.ResetScore
+- uid: DSRV.Core.ScoreHandler.Score
+  name: Score
+  href: api/DSRV.Core.ScoreHandler.html#DSRV_Core_ScoreHandler_Score
+  commentId: P:DSRV.Core.ScoreHandler.Score
+  fullName: DSRV.Core.ScoreHandler.Score
+  nameWithType: ScoreHandler.Score
+- uid: DSRV.Core.ScoreHandler.Score*
+  name: Score
+  href: api/DSRV.Core.ScoreHandler.html#DSRV_Core_ScoreHandler_Score_
+  commentId: Overload:DSRV.Core.ScoreHandler.Score
+  isSpec: "True"
+  fullName: DSRV.Core.ScoreHandler.Score
+  nameWithType: ScoreHandler.Score
 - uid: DSRV.Core.ScoreHandler.SubtractPoints(System.Int32)
   name: SubtractPoints(int)
   href: api/DSRV.Core.ScoreHandler.html#DSRV_Core_ScoreHandler_SubtractPoints_System_Int32_
@@ -1084,6 +1263,124 @@ references:
   commentId: F:DSRV.Core.ThrustControls.isThrusting
   fullName: DSRV.Core.ThrustControls.isThrusting
   nameWithType: ThrustControls.isThrusting
+- uid: DSRV.Core.UIHandler
+  name: UIHandler
+  href: api/DSRV.Core.UIHandler.html
+  commentId: T:DSRV.Core.UIHandler
+  fullName: DSRV.Core.UIHandler
+  nameWithType: UIHandler
+- uid: DSRV.Core.UIHandler.BlinkCoroutine(System.String,System.Single)
+  name: BlinkCoroutine(string, float)
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_BlinkCoroutine_System_String_System_Single_
+  commentId: M:DSRV.Core.UIHandler.BlinkCoroutine(System.String,System.Single)
+  name.vb: BlinkCoroutine(String, Single)
+  fullName: DSRV.Core.UIHandler.BlinkCoroutine(string, float)
+  fullName.vb: DSRV.Core.UIHandler.BlinkCoroutine(String, Single)
+  nameWithType: UIHandler.BlinkCoroutine(string, float)
+  nameWithType.vb: UIHandler.BlinkCoroutine(String, Single)
+- uid: DSRV.Core.UIHandler.BlinkCoroutine*
+  name: BlinkCoroutine
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_BlinkCoroutine_
+  commentId: Overload:DSRV.Core.UIHandler.BlinkCoroutine
+  isSpec: "True"
+  fullName: DSRV.Core.UIHandler.BlinkCoroutine
+  nameWithType: UIHandler.BlinkCoroutine
+- uid: DSRV.Core.UIHandler.ShowNotification(System.String,System.Single)
+  name: ShowNotification(string, float)
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_ShowNotification_System_String_System_Single_
+  commentId: M:DSRV.Core.UIHandler.ShowNotification(System.String,System.Single)
+  name.vb: ShowNotification(String, Single)
+  fullName: DSRV.Core.UIHandler.ShowNotification(string, float)
+  fullName.vb: DSRV.Core.UIHandler.ShowNotification(String, Single)
+  nameWithType: UIHandler.ShowNotification(string, float)
+  nameWithType.vb: UIHandler.ShowNotification(String, Single)
+- uid: DSRV.Core.UIHandler.ShowNotification*
+  name: ShowNotification
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_ShowNotification_
+  commentId: Overload:DSRV.Core.UIHandler.ShowNotification
+  isSpec: "True"
+  fullName: DSRV.Core.UIHandler.ShowNotification
+  nameWithType: UIHandler.ShowNotification
+- uid: DSRV.Core.UIHandler.Start
+  name: Start()
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_Start
+  commentId: M:DSRV.Core.UIHandler.Start
+  fullName: DSRV.Core.UIHandler.Start()
+  nameWithType: UIHandler.Start()
+- uid: DSRV.Core.UIHandler.Start*
+  name: Start
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_Start_
+  commentId: Overload:DSRV.Core.UIHandler.Start
+  isSpec: "True"
+  fullName: DSRV.Core.UIHandler.Start
+  nameWithType: UIHandler.Start
+- uid: DSRV.Core.UIHandler.Update
+  name: Update()
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_Update
+  commentId: M:DSRV.Core.UIHandler.Update
+  fullName: DSRV.Core.UIHandler.Update()
+  nameWithType: UIHandler.Update()
+- uid: DSRV.Core.UIHandler.Update*
+  name: Update
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_Update_
+  commentId: Overload:DSRV.Core.UIHandler.Update
+  isSpec: "True"
+  fullName: DSRV.Core.UIHandler.Update
+  nameWithType: UIHandler.Update
+- uid: DSRV.Core.UIHandler.blinkInterval
+  name: blinkInterval
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_blinkInterval
+  commentId: F:DSRV.Core.UIHandler.blinkInterval
+  fullName: DSRV.Core.UIHandler.blinkInterval
+  nameWithType: UIHandler.blinkInterval
+- uid: DSRV.Core.UIHandler.defaultString
+  name: defaultString
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_defaultString
+  commentId: F:DSRV.Core.UIHandler.defaultString
+  fullName: DSRV.Core.UIHandler.defaultString
+  nameWithType: UIHandler.defaultString
+- uid: DSRV.Core.UIHandler.depth
+  name: depth
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_depth
+  commentId: F:DSRV.Core.UIHandler.depth
+  fullName: DSRV.Core.UIHandler.depth
+  nameWithType: UIHandler.depth
+- uid: DSRV.Core.UIHandler.horizontalSpeed
+  name: horizontalSpeed
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_horizontalSpeed
+  commentId: F:DSRV.Core.UIHandler.horizontalSpeed
+  fullName: DSRV.Core.UIHandler.horizontalSpeed
+  nameWithType: UIHandler.horizontalSpeed
+- uid: DSRV.Core.UIHandler.notificationText
+  name: notificationText
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_notificationText
+  commentId: F:DSRV.Core.UIHandler.notificationText
+  fullName: DSRV.Core.UIHandler.notificationText
+  nameWithType: UIHandler.notificationText
+- uid: DSRV.Core.UIHandler.oxygen
+  name: oxygen
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_oxygen
+  commentId: F:DSRV.Core.UIHandler.oxygen
+  fullName: DSRV.Core.UIHandler.oxygen
+  nameWithType: UIHandler.oxygen
+- uid: DSRV.Core.UIHandler.score
+  name: score
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_score
+  commentId: F:DSRV.Core.UIHandler.score
+  fullName: DSRV.Core.UIHandler.score
+  nameWithType: UIHandler.score
+- uid: DSRV.Core.UIHandler.time
+  name: time
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_time
+  commentId: F:DSRV.Core.UIHandler.time
+  fullName: DSRV.Core.UIHandler.time
+  nameWithType: UIHandler.time
+- uid: DSRV.Core.UIHandler.verticalSpeed
+  name: verticalSpeed
+  href: api/DSRV.Core.UIHandler.html#DSRV_Core_UIHandler_verticalSpeed
+  commentId: F:DSRV.Core.UIHandler.verticalSpeed
+  fullName: DSRV.Core.UIHandler.verticalSpeed
+  nameWithType: UIHandler.verticalSpeed
 - uid: DSRV.DSRV
   name: DSRV
   href: api/DSRV.DSRV.html
@@ -2463,31 +2760,18 @@ references:
   isSpec: "True"
   fullName: DSRV.World.LandingPad.OnTriggerEnter
   nameWithType: LandingPad.OnTriggerEnter
-- uid: DSRV.World.LandingPad.OnTriggerExit(UnityEngine.Collider)
-  name: OnTriggerExit(Collider)
-  href: api/DSRV.World.LandingPad.html#DSRV_World_LandingPad_OnTriggerExit_UnityEngine_Collider_
-  commentId: M:DSRV.World.LandingPad.OnTriggerExit(UnityEngine.Collider)
-  fullName: DSRV.World.LandingPad.OnTriggerExit(UnityEngine.Collider)
-  nameWithType: LandingPad.OnTriggerExit(Collider)
-- uid: DSRV.World.LandingPad.OnTriggerExit*
-  name: OnTriggerExit
-  href: api/DSRV.World.LandingPad.html#DSRV_World_LandingPad_OnTriggerExit_
-  commentId: Overload:DSRV.World.LandingPad.OnTriggerExit
-  isSpec: "True"
-  fullName: DSRV.World.LandingPad.OnTriggerExit
-  nameWithType: LandingPad.OnTriggerExit
-- uid: DSRV.World.LandingPad.isPlayerOnPad
-  name: isPlayerOnPad
-  href: api/DSRV.World.LandingPad.html#DSRV_World_LandingPad_isPlayerOnPad
-  commentId: F:DSRV.World.LandingPad.isPlayerOnPad
-  fullName: DSRV.World.LandingPad.isPlayerOnPad
-  nameWithType: LandingPad.isPlayerOnPad
-- uid: DSRV.World.LandingPad.layer_Mask
-  name: layer_Mask
-  href: api/DSRV.World.LandingPad.html#DSRV_World_LandingPad_layer_Mask
-  commentId: F:DSRV.World.LandingPad.layer_Mask
-  fullName: DSRV.World.LandingPad.layer_Mask
-  nameWithType: LandingPad.layer_Mask
+- uid: DSRV.World.LandingPad.pointsToAdd
+  name: pointsToAdd
+  href: api/DSRV.World.LandingPad.html#DSRV_World_LandingPad_pointsToAdd
+  commentId: F:DSRV.World.LandingPad.pointsToAdd
+  fullName: DSRV.World.LandingPad.pointsToAdd
+  nameWithType: LandingPad.pointsToAdd
+- uid: DSRV.World.LandingPad.scoreMultiplier
+  name: scoreMultiplier
+  href: api/DSRV.World.LandingPad.html#DSRV_World_LandingPad_scoreMultiplier
+  commentId: F:DSRV.World.LandingPad.scoreMultiplier
+  fullName: DSRV.World.LandingPad.scoreMultiplier
+  nameWithType: LandingPad.scoreMultiplier
 - uid: DSRV.World.LandingPad.speedThreshold
   name: speedThreshold
   href: api/DSRV.World.LandingPad.html#DSRV_World_LandingPad_speedThreshold

@@ -122,17 +122,17 @@
 
 
 
-  <h3 id="DSRV_World_LandingPad_isPlayerOnPad" data-uid="DSRV.World.LandingPad.isPlayerOnPad">
-  isPlayerOnPad
+  <h3 id="DSRV_World_LandingPad_pointsToAdd" data-uid="DSRV.World.LandingPad.pointsToAdd">
+  pointsToAdd
   
   </h3>
 
-  <div class="markdown level1 summary"><p>A boolean that checks whether the player is on a pad or not.</p>
+  <div class="markdown level1 summary"><p>Points to add when conditions are met</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private bool isPlayerOnPad</code></pre>
+    <pre><code class="lang-csharp hljs">private int pointsToAdd</code></pre>
   </div>
 
 
@@ -140,7 +140,7 @@
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -153,16 +153,17 @@
 
 
 
-  <h3 id="DSRV_World_LandingPad_layer_Mask" data-uid="DSRV.World.LandingPad.layer_Mask">
-  layer_Mask
+  <h3 id="DSRV_World_LandingPad_scoreMultiplier" data-uid="DSRV.World.LandingPad.scoreMultiplier">
+  scoreMultiplier
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Multiplier for the score calculation</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private LayerMask layer_Mask</code></pre>
+    <pre><code class="lang-csharp hljs">private int scoreMultiplier</code></pre>
   </div>
 
 
@@ -170,7 +171,7 @@
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">LayerMask</span></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
     <dd></dd>
   </dl>
 
@@ -188,7 +189,8 @@
   
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A threshold value for determining conditions base on player speed</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -223,44 +225,11 @@
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Checks if the object has entered collision with the Player that has the player tag.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">private void OnTriggerEnter(Collider other)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>other</code> <span class="xref">Collider</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="DSRV_World_LandingPad_OnTriggerExit_" data-uid="DSRV.World.LandingPad.OnTriggerExit*"></a>
-
-  <h3 id="DSRV_World_LandingPad_OnTriggerExit_UnityEngine_Collider_" data-uid="DSRV.World.LandingPad.OnTriggerExit(UnityEngine.Collider)">
-  OnTriggerExit(Collider)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Checks if the player has exited collision.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">private void OnTriggerExit(Collider other)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

@@ -45,6 +45,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.InternalClock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.InternalClock.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DSRV.Core.ManagerHub.yml",
       "output": {
         ".html": {
@@ -129,6 +139,16 @@
       "output": {
         ".html": {
           "relative_path": "api/DSRV.Core.ThrustControls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSRV.Core.UIHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSRV.Core.UIHandler.html"
         }
       },
       "version": ""
